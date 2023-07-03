@@ -1,0 +1,18 @@
+.center {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  flex-wrap: wrap;
+}
+
+.FlipClock * {
+  font-family: Roboto;
+}
+.textC-mobile {
+  font-size: 18px;
+}
+[class="_qWTcH _1tbqx"]{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

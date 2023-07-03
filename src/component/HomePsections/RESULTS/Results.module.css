@@ -1,0 +1,13 @@
+.Results h1{
+     margin-bottom: 50px;
+}
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 40px !important;
+  }
+}
+@media (max-width: 750px) {
+  h1 {
+    font-size: 30px !important;
+  }
+}

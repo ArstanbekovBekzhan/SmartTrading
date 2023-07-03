@@ -1,0 +1,91 @@
+.ThemesC{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ThemesC .blocks{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 20px 0;
+    cursor: crosshair;
+    margin-top: 50px;
+}
+.ThemesC .blocks button{
+    margin-top: 50px;
+    padding: 20px 40%;
+    background-color: blue;
+    cursor: pointer;
+}
+.ThemesC .blocks:first-child{
+    background-color: yellow;
+}
+
+.ThemesC .blocks *{
+    color: #000000;
+}
+
+.ThemesC h3{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.ThemesC a{
+    width: 100%;
+}
+.ul{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ThemesC .blocks:first-child button{
+    background-color: rebeccapurple;
+    color: #fff !important;
+}
+.ThemesC .blocks:nth-child(2){
+    background-color: gray;
+}
+.ThemesC .blocks:nth-child(2) *{
+    color: #fff !important;
+}
+.ThemesC .blocks:nth-child(2) p{
+    color: aqua  !important;
+}
+.ThemesC .blocks p{
+    color: red !important;
+}
+.WhatsApp{
+    background: #25D366;
+    padding: 20px 60px;
+    font-size: 25px;
+}
+@media (max-width: 600px) {
+    .ThemesC .blocks {
+        width: 90%;
+    }
+    .ThemesC h3{
+        font-size: 30px;
+    }
+    .ThemesC ul{
+        font-size: 20px;
+    }
+}
+@media (max-width: 400px) {
+    .ThemesC .blocks {
+        width: 90%;
+    }
+    .ThemesC h3{
+        font-size: 20px;
+    }
+    .ThemesC ul{
+        font-size: 10px;
+    }
+}

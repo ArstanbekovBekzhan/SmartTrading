@@ -1,0 +1,33 @@
+.Lesson {
+  margin-top: 120px;
+  padding: 1vw 2vw;
+  text-align: center;
+  background:  url("../../image/JPG/BG.jpg") fixed center 50px no-repeat;
+  background-size: contain;
+}
+.Lesson .bg{
+  background: #00000091;
+  padding: 0 3vw;
+  border-radius: 20px;
+}
+.Lesson .Input {
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 16px;
+  color: #000000;
+  font-size: 20px;
+}
+
+.Lesson .Button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Lesson .LessonText {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+}

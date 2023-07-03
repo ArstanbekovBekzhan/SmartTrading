@@ -1,0 +1,42 @@
+.boxs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    width: 350px;
+    margin: 50px;
+}
+.box img{
+    border-radius: 20px;
+}
+.boxs .box h2{
+    font-size: 80px;
+    color: rgb(136, 136, 4);
+    font-family: Montserrat;
+    font-weight: 800;
+    font-style: normal;
+}
+.boxs .box h3{
+    color: yellow;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 21px;
+    border-bottom: 2px solid;
+}
+.boxs .box p{
+    margin: 20px 0;
+    box-shadow: 5px 5px 5px yellow;
+}
+@media (max-width: 1200px) {
+    .box{
+      width: 90%;
+      text-align: center;
+    }
+  }
+  @media (max-width: 350px) {
+    .box{
+      width: 200px;
+    }
+  }

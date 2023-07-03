@@ -1,0 +1,36 @@
+.error-page {
+  background-color: #F06D06;
+  color: #FFF;
+  text-align: center;
+  padding: 100px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-page__title {
+  font-size: 72px;
+  margin-bottom: 40px;
+}
+
+.error-page__message {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.error-page__link {
+  display: inline-block;
+  background-color: #FFF;
+  color: #F06D06;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.error-page__link:hover {
+  background-color: #E56205;
+}

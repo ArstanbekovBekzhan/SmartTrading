@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ysabeau SC', sans-serif;
+  color: #fff;
+}
+
+.textC {
+  text-align: center;
+}
+
+#root {
+  background-color: #000000;
+  padding: 0 5vw;
+}
+
+.text * {
+  font-size: 20px;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 400;
+  opacity: 1 !important;
+  transition-property: all;
+  transition-duration: 3s;
+  cursor: pointer;
+}
+
+.text a {
+  border-bottom: transparent 2px solid;
+  font-family: Roboto;
+}
+
+.Nav a a {
+  border-color: transparent !important;
+}
+
+.text a:hover {
+  border-color: #00ff2a;
+}
+
+span {
+  color: #00ff2a !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  cursor: pointer;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  border-radius: 40px;
+  -webkit-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  margin: 15vh 0;
+}
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 750px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+.cursor {
+  background-color: #111;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 100;
+}

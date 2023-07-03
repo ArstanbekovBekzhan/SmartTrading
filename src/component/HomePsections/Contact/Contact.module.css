@@ -1,0 +1,40 @@
+.rounds{
+    margin: 1vw;
+    gap: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: Roboto;
+}
+.rounds h3{
+    font-family: Roboto;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.icon svg{
+    width: 50%;
+    height: 50%;
+}
+@media (max-width: 1000px) {
+    .icon {
+        width: 90px;
+        height: 90px;
+    }
+  }
+  @media (max-width: 750px) {
+    .icon {
+        width: 60px;
+        height: 60px;
+    }
+  }

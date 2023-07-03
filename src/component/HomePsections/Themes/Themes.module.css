@@ -1,0 +1,36 @@
+.ThemesC{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ThemesC .blocks{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 20px 0;
+    cursor: crosshair;
+}
+.ThemesC .blocks:hover{
+    background-color: yellow;
+}
+.ThemesC .blocks *{
+    color: #000000;
+}
+.ThemesC h3{
+    font-size: 30px;
+}
+.ul{
+    font-size: 17px;
+}
+@media (max-width: 600px) {
+    .ThemesC .blocks {
+        width: 90%;
+    }
+    .ThemesC h3{
+        font-size: 30px;
+    }
+}

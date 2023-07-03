@@ -1,0 +1,16 @@
+.Container {
+  width: 100%;
+  position: relative;
+  margin: 50px;
+  padding-top: 50px;
+  transition: background-image 0.5s;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+@media (max-width: 1200px) {
+  .Container{
+    margin: 1vw;
+  }
+}

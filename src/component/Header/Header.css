@@ -1,0 +1,138 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 0 5vw;
+  background-color: #000000;
+}
+
+.Logo {
+  width: 120px;
+  height: auto;
+}
+
+.Nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Nav button {
+  background: #000;
+  box-shadow: #fff 2px 2px 2px;
+  border-radius: 20px;
+}
+
+.Nav * {
+  margin-right: 16px;
+  color: #00ff2a;
+}
+.Nav a{
+  width: 100%;
+}
+
+.Burger {
+  display: none;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.ToggleNavButton {
+  display: none;
+  background-color: transparent;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.ToggleNavButton:hover {
+  background-color: #f2f2f2;
+}
+
+.Nav.open {
+  display: flex;
+}
+
+.NavAnimation-enter {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.NavAnimation-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.NavAnimation-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.NavAnimation-exit-active {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 300ms, transform 300ms;
+}
+
+@media (max-width: 1250px) {
+  .Nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: gray;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .Nav a {
+    margin-bottom: 8px;
+  }
+
+  .Nav.open {
+    display: flex;
+  }
+
+  .Burger {
+    display: block;
+  }
+
+  .ToggleNavButton {
+    display: block;
+  }
+
+  .NavAnimation-enter {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  .NavAnimation-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+
+  .NavAnimation-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .NavAnimation-exit-active {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 300ms, transform 300ms;
+  }
+}
