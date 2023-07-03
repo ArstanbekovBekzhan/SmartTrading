@@ -4,6 +4,7 @@ import { CSSTransition } from "react-transition-group";
 import Logo from "../../image/Logo/Logo.png";
 import { Link } from "react-scroll";
 import { NavLink } from "react-router-dom";
+import HeaderB from '../../image/Png/header.png'
 
 const Header = ({ onHeaderHeight, onMouseEnter, onMouseLeave }) => {
   const [isNavVisible, setNavVisibility] = useState(false);
@@ -72,7 +73,7 @@ const Header = ({ onHeaderHeight, onMouseEnter, onMouseLeave }) => {
         classNames="NavAnimation"
         unmountOnExit
       >
-        <nav ref={navRef} className="Nav text">
+        <nav ref={navRef} className="Nav text" onClick={closeNav}>
           <Link
            onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}
             to="section1"
@@ -162,7 +163,7 @@ const Header = ({ onHeaderHeight, onMouseEnter, onMouseLeave }) => {
       </CSSTransition>
       {isSmallScreen && (
         <button onClick={toggleNav} className="Burger">
-          🍔
+          <img className="HeaderB" src={HeaderB} alt="" />
         </button>
       )}
     </header>

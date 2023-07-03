@@ -33,8 +33,8 @@
   margin-right: 16px;
   color: #00ff2a;
 }
-.Nav a{
-  width: 100%;
+.Nav a a{
+  width: 100% !important;
 }
 
 .Burger {
@@ -86,7 +86,11 @@
   transform: translateY(-10px);
   transition: opacity 300ms, transform 300ms;
 }
-
+.HeaderB{
+  border-radius: 50%;
+  width: 5vw;
+  height: 5vw;
+}
 @media (max-width: 1250px) {
   .Nav {
     position: absolute;
